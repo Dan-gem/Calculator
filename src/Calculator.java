@@ -16,6 +16,7 @@ public class Calculator {
 
 
 
+
         switch (sign) {
             case  "sing == +":
                 equally = operand1 + operand2;
