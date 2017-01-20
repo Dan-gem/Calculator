@@ -8,26 +8,30 @@ public class Calculator {
 
         String sign = in.next(); // Создаем строковую локальную переменную с именем sign
         // и принимаем от нее ввод от пользователя до первого пробела.
-        operand1 = in.nextInt();
+        //operand1 = in.nextInt();
 
-        operand2 = in.nextInt();
+        //operand2 = in.nextInt();
 
-        equally = in.nextInt();
+         int equally; //in.nextInt();
 
 
 
-        switch (equally) {
-            case "+":
+        switch (sign) {
+            case  "sing == +":
                 equally = operand1 + operand2;
+                System.out.println ("equally");
                 break;
-            case "-":
-
+            case "sing == -":
+                equally = operand1 - operand2;
+                System.out.println ("equally");
                 break;
-            case "/":
-
+            case "sing == /":
+                equally = operand1 / operand2;
+                System.out.println ("equally");
                 break;
-            case "*":
-
+            case "sing == *":
+                equally = operand1 * operand2;
+                System.out.println ("equally");
                 break;
         }
     }
