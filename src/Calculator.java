@@ -30,10 +30,14 @@ public class Calculator {
                 break;
         }
             case "/": {
+                if ("operand2".equals 0) {
+                    System.out.println("Нельзя делить на ноль");
+                } else {
                 equally = operand1 / operand2;
                 System.out.println("Ответ: ");
                 System.out.println(equally);
                 break;
+                }
         }
             case "*": {
                 equally = operand1 * operand2;
